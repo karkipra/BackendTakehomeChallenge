@@ -8,6 +8,8 @@ https://docs.djangoproject.com/en/2.2/topics/settings/
 
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.2/ref/settings/
+
+** SECRET KEY = 3iWrGBYJzW8TeVOHGlHMV2Zr4ZW2IUEGKibL2Cvi3WVMzePVpQ
 """
 
 import os
@@ -25,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', default='foo')
 
 DEBUG = int(os.environ.get('DEBUG', default=0))
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'camino-financial-backend.herokuapp.com']
 
 
 # Application definition

@@ -1,5 +1,12 @@
 # Camino Financial's Backend Take-home Challenge
 
+## Implementation
+
+- Used this tutorial https://testdriven.io/blog/deploying-django-to-heroku-with-docker/ to start off the project
+- Deployed to heroku through this link: https://camino-financial-backend.herokuapp.com/ 
+
+# Previous instructions below
+
 ## Your mission
 Greetings. The Master Control Program has chosen you to serve your system on the Game Grid. You have 3 hours to simulate a business lending environment. Should you become successful, you will be invited to the next level in the Game Grid.
 
@@ -21,8 +28,3 @@ Greetings. The Master Control Program has chosen you to serve your system on the
 1. Use any libraries or tools as you see fit.
 2. Be creative and deliver on-time.
 3. A good template / tutorial to use https://testdriven.io/blog/deploying-django-to-heroku-with-docker/
-
-
-## Implementation
-
-- Used this tutorial https://testdriven.io/blog/deploying-django-to-heroku-with-docker/ to start off the project
